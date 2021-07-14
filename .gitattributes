@@ -1,4 +1,5 @@
-z3 filter=lfs diff=lfs merge=lfs -text
-z3.exe filter=lfs diff=lfs merge=lfs -text
-clang filter=lfs diff=lfs merge=lfs -text
-clang.exe filter=lfs diff=lfs merge=lfs -text
+impl/build/include/win/z3/bin/* filter=lfs diff=lfs merge=lfs -text
+impl/build/include/win/mimalloc/bin/* filter=lfs diff=lfs merge=lfs -text
+impl/build/include/macos/z3/bin/* filter=lfs diff=lfs merge=lfs -text
+impl/build/include/macos/mimalloc/bin/* filter=lfs diff=lfs merge=lfs -text
+impl/build/include/linux/z3/bin/* filter=lfs diff=lfs merge=lfs -text
